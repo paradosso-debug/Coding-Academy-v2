@@ -76,6 +76,7 @@ var score = 10;
 ```js
 let score = 10;
 score = 20; // ✅ allowed — the value can change
+console.log(score); // 20
 ```
 
 - Use `let` when the value **will change** over time
@@ -105,7 +106,7 @@ These are two separate steps that are usually combined:
 let age;
 
 // Assignment — putting a value inside it
-age = 25;
+let age = 10;
 
 // Both at once (the most common pattern)
 let age = 25;

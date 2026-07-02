@@ -16,11 +16,20 @@
 // Declare a const called siteName with the value "JS Fundamentals"
 // Log it to the console.
 
+const siteName = "JS Fundamentals";
+console.log(siteName);
+
 // TASK 2
 // Declare a let called currentLesson with the value 1
 // Log it to the console.
 // Then reassign currentLesson to 2.
 // Log it again. Notice how let allows the change.
+
+let currentLesson = 1;
+console.log(currentLesson);
+
+currentLesson = 2;
+console.log(currentLesson);
 
 // TASK 3
 // Try to reassign your siteName const to something else.
