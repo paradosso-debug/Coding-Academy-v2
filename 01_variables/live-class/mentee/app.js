@@ -38,6 +38,9 @@ console.log(currentLesson);
 // Write the error message as a comment below:
 // Error:
 
+// siteName = "Python";
+// console.log(siteName);
+
 // ----------------------------------------------------------
 // PART 2 — Data in variables (strings, numbers, booleans)
 // ----------------------------------------------------------
@@ -50,10 +53,20 @@ console.log(currentLesson);
 // Declare a let   called isLoggedIn → true
 // Log all three.
 
+const userName = "Jocelin";
+const userAge = 33;
+let isLoggedIn = true;
+
+console.log(userName);
+console.log(userAge);
+console.log(isLoggedIn);
 // TASK 5
 // Reassign isLoggedIn to false.
 // Log it again.
 // Notice: only let allowed this — if it were const it would throw an error.
+
+isLoggedIn = false;
+console.log(isLoggedIn);
 
 // ----------------------------------------------------------
 // PART 3 — Naming variables
@@ -72,6 +85,12 @@ console.log(currentLesson);
 //   x              → rename to something descriptive, declare it
 //   1stColor       → fix it and declare it
 
+const firstNam = "Jocelin";
+const age = 33;
+const firstColor = "Gold";
+
+console.log(firstNam, age, firstColor);
+
 // ----------------------------------------------------------
 // PART 4 — Declaring then assigning (two-step)
 // ----------------------------------------------------------
@@ -83,12 +102,32 @@ console.log(currentLesson);
 // Now assign score the value 0.
 // Log it again.
 
+let score;
+console.log(score);
+
+score = 0;
+console.log(score);
+
+let name = "John";
+let last = "Doe";
+
+let fullNam = `${name} ${last}`;
+console.log(fullNam);
+
 // TASK 8
 // Declare a let called playerName — do NOT assign a value yet.
 // Then assign it your name.
 // Then reassign it to a different name.
 // Log playerName after each change. (3 logs total)
 
+let playerName;
+console.log(playerName);
+
+playerName = "Joe";
+console.log(playerName);
+
+playerName = "Amit";
+console.log(playerName);
 // ----------------------------------------------------------
 // PART 5 — String combination preview
 // ----------------------------------------------------------
@@ -100,8 +139,17 @@ console.log(currentLesson);
 // Declare a const called firstName and a const called lastName.
 // Log: "Full name: " + firstName + " " + lastName
 
+const firstName = "Jordan";
+const lastName = "Johnson";
+const fullName = firstName + " " + lastName;
+console.log(fullName);
+
 // TASK 10
 // Declare a const called language  with the value "JavaScript"
 // Declare a const called lessonNum with the value 1
 // Log: "Welcome to " + language + " — Lesson " + lessonNum
 // Expected output: "Welcome to JavaScript — Lesson 1"
+
+const language = "JavaScript";
+const lessonNum = 1;
+console.log("Welcome to " + language + " - Lesson " + lessonNum);
